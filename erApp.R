@@ -29,7 +29,7 @@ custom_theme <- bs_theme(
 )
 
 
-# main dataset
+# main dataset replaced
 # national_hcf  <- st_read("data/national-health-care-facilities/health-care-facilities-primary-secondary-and-tertiary.geojson") #|> 
 
 # write_rds(national_hcf, "data/national-health-care-facilities/national_hcf.rds")
