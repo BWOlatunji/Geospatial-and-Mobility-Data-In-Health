@@ -30,11 +30,14 @@ custom_theme <- bs_theme(
 
 
 # main dataset
-national_hcf  <- st_read("data/national-health-care-facilities/health-care-facilities-primary-secondary-and-tertiary.geojson") #|> 
+# national_hcf  <- st_read("data/national-health-care-facilities/health-care-facilities-primary-secondary-and-tertiary.geojson") #|> 
 
+# write_rds(national_hcf, "data/national-health-care-facilities/national_hcf.rds")
+
+national_hcf <- read_rds("data/national-health-care-facilities/national_hcf.rds")
 
 # selectIput data
-selectInput_data <- readRDS(file = "select_item_data.rds")
+selectInput_data <- readRDS(file = "data/select_item_data.rds")
 
 
 
