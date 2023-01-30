@@ -57,7 +57,8 @@ ui <- navbarPage(
         hcf_category_vec=selectInput_data$category_values)),
   
   tabPanel(title = "RI Planning",
-           ),
+           ri_UI("er_tabpage",state_vec=selectInput_data$state_values, 
+                 hcf_category_vec=selectInput_data$category_values)),
   inverse = T
 )
 
